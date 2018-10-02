@@ -1,0 +1,8 @@
+CREATE TABLE POINT(
+    POINT_SEQ INT PRIMARY KEY,
+    ALL_POINT INT, <!-- default 만 -->
+    MBR_POINT INT,
+    MEMBER_ID VARCHAR(20)
+);
+
+
